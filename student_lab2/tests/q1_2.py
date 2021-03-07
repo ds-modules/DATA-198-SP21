@@ -1,6 +1,7 @@
 test = {   'name': 'q1_2',
     'points': 1,
-    'suites': [   {   'cases': [   {'code': ">>> assert trending_vids.iloc[0, 0] == '25231'\n", 'hidden': False, 'locked': False},
+    'suites': [   {   'cases': [   {'code': ">>> assert trending_vids.shape[0] == '40379'\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert trending_vids.iloc[0, 0] == '25231'\n", 'hidden': False, 'locked': False},
                                    {'code': ">>> assert trending_vids.iloc[0, 4] == 'Inside Edition'\n", 'hidden': False, 'locked': False},
                                    {'code': ">>> assert trending_vids.loc[0, 'views'] == 542677.0\n", 'hidden': False, 'locked': False},
                                    {'code': ">>> assert trending_vids.loc[2, 'likes'] == 11390.0\n", 'hidden': False, 'locked': False},
